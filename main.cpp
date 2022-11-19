@@ -7,15 +7,16 @@ int main() {
     cout<<"metti i valori di a e b"<<endl;
     cin>>a;
     cin>>b;
+    cin>>opzione;
     switch (opzione) {
         case 0:
-            cout<< ( a * b ) / 2 <<endl;
+            cout<<"l'area del triangolo e\'"<< ( a * b ) / 2 <<endl;
             break;
         case 1:
-            cout<< pow(a, 2)<<endl;
+            cout<<"l'area del quadrato e\'"<< pow(a, 2)<<endl;
             break;
         case 2:
-            cout<< (a * b)<<endl;
+            cout<<"l'area del rettangolo e\'"<< (a * b)<<endl;
             break;
         default:
             cout<< " opzione non valida "<<endl;
